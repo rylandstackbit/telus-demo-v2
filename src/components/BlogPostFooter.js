@@ -14,9 +14,6 @@ export default function BlogPostFooter(props) {
     
     return (
         <footer className="post-meta" style={{color: footerTextColor}}>
-            <time className="published" dateTime={dateTimeAttr}>
-                {formattedDate}
-            </time>
             {authorName && `, by ${authorName}`}
         </footer>
     );
