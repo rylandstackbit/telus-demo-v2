@@ -14,7 +14,7 @@ export default function BlogPostFooter(props) {
     
     return (
         <footer className="post-meta" style={{color: footerTextColor}}>
-            {authorName && `, by ${authorName}`}
+            {authorName && ` ${authorName}`}
         </footer>
     );
 }
